@@ -1,4 +1,4 @@
-# DHT 11 Tempreature and Humidity Data Logger
+# DHT 11 Temperature and Humidity Data Logger
 
 Author: Bikas Sunar
 
