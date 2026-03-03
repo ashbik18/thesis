@@ -7,13 +7,13 @@ Project : Thesis
 Language : Python and Arduino C++
 
 # Project discription
-This project is for collecting real-time tempreature and humidity data from DHT 11 sensor using arduino mega2560.  the arduino sends the data from serial communication and the python script running on a pc,
+This project is for collecting real-time temperature and humidity data from DHT 11 sensor using arduino mega2560.  the arduino sends the data from serial communication and the python script running on a pc,
 logs the data into csv files with current date and time. Each data is collected with the frequency of 10s time period.
 
 # files in the project
 1)" dhtSensorCode.ino "
   Arduino code does:
-  - reads humidity and tempreature from DHT11 sensor
+  - reads humidity and temperature from DHT11 sensor
   - sends the data via serial communication
   - outputs data every 10 second
 
@@ -45,4 +45,30 @@ logs the data into csv files with current date and time. Each data is collected 
     - addition python library (pyserial)
   # need to install pyserial
     pip install pyserial
+
+## Dataset
+
+The `data/` folder contains temperature and humidity measurements
+collected using the DHT11 sensor as part of the environmental monitoring system.
+
+### Sensor Information
+- Sensor model: DHT11
+- Measured variables: Temperature and Relative Humidity
+- Temperature unit: °C
+- Humidity unit: %
+- Measurement environment: outdoor (Prague)
+
+### Sampling Details
+- Sampling interval: 10 seconds
+- Data format: CSV
+- Timestamp: Recorded at the time of measurement
+
+### File Description
+Each CSV file represents an individual measurement session recorded by the
+system. The files contain time-series data used for analysis and visualization
+in this thesis.
+
+### Reproducibility
+The raw data can be reproduced by running the Arduino and Python scripts
+provided in this repository.
   
