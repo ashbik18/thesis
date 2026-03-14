@@ -51,6 +51,9 @@ logs the data into csv files with current date and time. Each data is collected 
 The `data/` folder contains temperature and humidity measurements
 collected using the DHT11 sensor as part of the environmental monitoring system.
 
+where as export and merged_data can be used for the data analysis
+
+
 ### Sensor Information
 - Sensor model: DHT11
 - Measured variables: Temperature and Relative Humidity
