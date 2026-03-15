@@ -22,6 +22,7 @@ logs the data into csv files with current date and time. Each data is collected 
    - Reads serial data from COM3 (port can be changed, depending on the port arduino is connected).
    - adds date and time
    - stores data into csv files.
+3) " datasnalysis.py"
 
 # Hardware requirements
 - Arduino mega2560
