@@ -58,6 +58,9 @@ The script also performs anomaly detection and threshold analysis to identify un
   # need to install pyserial
     pip install pyserial
 
+  # for dataanalysis
+   pip install pandas,matplotlib,seaborn
+
 ## Dataset
 
 The `data/` folder contains temperature and humidity measurements
