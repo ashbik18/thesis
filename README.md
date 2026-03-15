@@ -22,7 +22,18 @@ logs the data into csv files with current date and time. Each data is collected 
    - Reads serial data from COM3 (port can be changed, depending on the port arduino is connected).
    - adds date and time
    - stores data into csv files.
-3) " datasnalysis.py"
+3) " dataanalysis.py"
+   -The code imports pandas, matplotlib, and seaborn to perform environmental data analysis.
+
+   -It loads temperature and humidity data from two sources: the Arduino-collected dataset and a weather website dataset.
+
+   -The datasets are cleaned, converted to datetime format, and merged based on time to enable direct comparison.
+
+   -Descriptive statistics and graphs are generated to compare temperature and humidity values from both sources.
+
+   -Correlation analysis and a heatmap are used to evaluate the relationship between collected and website data.
+
+The script also performs anomaly detection and threshold analysis to identify unusual values and high temperature or humidity events.
 
 # Hardware requirements
 - Arduino mega2560
